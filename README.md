@@ -37,11 +37,7 @@ Key data preparation was done on Kaggle using Python and Pandas, steps included:
 1. Standardizing Column Names
 The 2019 and 2020 datasets used different column names.
 Columns were standardized to ensure compatibility.
-| Original   | Standardized |
-| ---------- | ------------ |
-| trip_id    | ride_id      |
-| start_time | started_at   |
-| end_time   | ended_at     |
+trip_id -> ride_id| start_time -> started_at| end_time -> ended_at.
 
 2. Converting Date Fields
 Date columns were converted to timestamps to allow time calculations.
@@ -70,8 +66,6 @@ These visuals highlight key behavioral differences between casual riders and mem
 Key insights
 A. Casual riders have significantly longer average ride durations than members.
 This suggests casual riders are more likely to use bikes for leisure or tourism.
-
 B. Annual members take substantially more trips overall.
 This indicates members use the service for regular commuting.
-
 C. Casual riders show much higher weekend activity, while members ride more consistently throughout the week.
