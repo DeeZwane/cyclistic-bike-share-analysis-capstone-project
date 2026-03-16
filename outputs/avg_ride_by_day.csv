@@ -1,0 +1,15 @@
+day_of_week,rider_type,avg_ride_minutes
+Friday,casual,95.45
+Friday,member,13.28
+Monday,casual,65.84
+Monday,member,13.71
+Saturday,casual,82.51
+Saturday,member,16.23
+Sunday,casual,84.36
+Sunday,member,16.22
+Thursday,casual,129.34
+Thursday,member,11.79
+Tuesday,casual,69.62
+Tuesday,member,12.82
+Wednesday,casual,68.5
+Wednesday,member,11.87
